@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python3
 
 import hashlib
 import os
@@ -51,7 +51,7 @@ else:
     match=0
 
 if match == 0:
-    print ("Verification failed, values does not match")
+    print ("Verification failed, values does not match.")
 else:
-    print ("Verification Successful")
+    print ("Verification Successful.")
 
